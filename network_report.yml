@@ -11,6 +11,7 @@
 - name: build report with facts
   hosts: ansible-1
   gather_facts: no
+  become: yes
 
   tasks:
 
